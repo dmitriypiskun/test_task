@@ -1,7 +1,9 @@
 import { Module } from '@nestjs/common';
-import { ThrottlerModule } from '@nestjs/throttler';
+import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ApiModule } from './api/api.module';
+import { APP_GUARD } from '@nestjs/core';
+import { RandomDelayInterceptor } from './interceptors/random-delay.interceptor';
 
 @Module({
   imports: [
@@ -15,13 +17,18 @@ import { ApiModule } from './api/api.module';
         {
           ttl: config.get('RATE_TTL') || 1000,
           limit: config.get('RATE_LIMIT') || 50,
-          // errorMessage: HttpStatus.TOO_MANY_REQUESTS,
         },
       ],
     }),
     ApiModule,
   ],
   controllers: [],
-  providers: [],
+  providers: [
+    {
+      provide: APP_GUARD,
+      useClass: ThrottlerGuard,
+    },
+    RandomDelayInterceptor,
+  ],
 })
 export class AppModule {}

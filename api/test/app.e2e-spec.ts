@@ -15,8 +15,10 @@ describe('ApiController (e2e)', () => {
     await app.init();
   });
 
-  it('/api (GET)', () => {
+  it('/api (GET)', async () => {
     const index = 5;
-    return request(app.getHttpServer()).get(`/api?index=${index}`).expect(200).expect(index);
+    const result = await request(app.getHttpServer()).get(`/api?index=${index}`);
+    expect(result.status).toBe(200);
+    expect(result.text).toBe('5');
   });
 });

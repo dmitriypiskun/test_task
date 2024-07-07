@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx test",
-    "startTime": "2024-07-06T20:28:02.526Z",
-    "endTime": "2024-07-06T20:28:04.162Z",
+    "startTime": "2024-07-07T11:58:38.889Z",
+    "endTime": "2024-07-07T11:58:54.775Z",
     "inner": false
   },
   "tasks": [
@@ -10,12 +10,12 @@
       "taskId": "client:test",
       "target": "test",
       "projectName": "client",
-      "hash": "9182588870742115321",
-      "startTime": "2024-07-06T20:28:02.531Z",
-      "endTime": "2024-07-06T20:28:04.162Z",
+      "hash": "7455195015049918998",
+      "startTime": "2024-07-07T11:58:38.894Z",
+      "endTime": "2024-07-07T11:58:54.775Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }

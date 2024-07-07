@@ -14,7 +14,7 @@ To start the project you need to complete the following steps:
 1. Install third party packages into the project;
 
 ```bash
-# Go to api folder
+# Go to "api" folder
 $ cd api
 
 # Install

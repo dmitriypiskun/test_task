@@ -79,11 +79,11 @@
       "e2e": [
         {
           "file": "e2e/.eslintrc.json",
-          "hash": "16745924632016023354"
+          "hash": "18365863871085805446"
         },
         {
           "file": "e2e/cypress.config.ts",
-          "hash": "9009978577422157199",
+          "hash": "6966414743732312063",
           "deps": [
             "npm:@nx/cypress",
             "npm:cypress"
@@ -91,81 +91,89 @@
         },
         {
           "file": "e2e/project.json",
-          "hash": "12101374779048153519"
+          "hash": "199103462178297950"
         },
         {
           "file": "e2e/src/e2e/app.cy.ts",
-          "hash": "2588220647650846806"
+          "hash": "14011695883016389135"
         },
         {
           "file": "e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
+          "hash": "13882982864087580737"
         },
         {
           "file": "e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
+          "hash": "5364106453863571025"
         },
         {
           "file": "e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
+          "hash": "7570864621153670540"
         },
         {
           "file": "e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
+          "hash": "14369563060992369541"
         },
         {
           "file": "e2e/tsconfig.json",
-          "hash": "14125977923036463922"
+          "hash": "843400587477622912"
         }
       ],
       "client": [
         {
           "file": ".env.example",
-          "hash": "14330391583184040037"
+          "hash": "12616171992953861558"
         },
         {
           "file": ".eslintignore",
-          "hash": "7663861978715868291"
+          "hash": "13404745306227114823"
         },
         {
           "file": ".eslintrc.json",
-          "hash": "11851112797058176898"
+          "hash": "12354688591738661589"
         },
         {
           "file": ".gitignore",
-          "hash": "17107242987988535020"
+          "hash": "5439913239862254453"
         },
         {
           "file": ".prettierignore",
-          "hash": "14688272390704683536"
+          "hash": "17085498363870782104"
         },
         {
           "file": ".prettierrc",
-          "hash": "13717345967482552700"
+          "hash": "14345128700636456852"
+        },
+        {
+          "file": ".vite/deps/_metadata.json",
+          "hash": "1254641022689407868"
+        },
+        {
+          "file": ".vite/deps/package.json",
+          "hash": "5205450563224045926"
         },
         {
           "file": ".vscode/extensions.json",
-          "hash": "4134969992917317260"
+          "hash": "14244474672258854795"
         },
         {
           "file": "README.md",
-          "hash": "478714954066749798"
+          "hash": "13018828800871145544"
         },
         {
           "file": "index.html",
-          "hash": "17743788895777739047"
+          "hash": "11711569118127757769"
         },
         {
           "file": "nx.json",
-          "hash": "13410001716568146964"
+          "hash": "16875412806214472121"
         },
         {
           "file": "package-lock.json",
-          "hash": "584797478379520271"
+          "hash": "8112816742462145664"
         },
         {
           "file": "package.json",
-          "hash": "18063647627219339343",
+          "hash": "8136084852506143675",
           "deps": [
             "npm:@nx/cypress",
             "npm:@nx/eslint",
@@ -213,7 +221,7 @@
         },
         {
           "file": "project.json",
-          "hash": "2113177053406718050"
+          "hash": "12150546028424065648"
         },
         {
           "file": "public/favicon.ico",
@@ -221,11 +229,11 @@
         },
         {
           "file": "src/app/app.module.scss",
-          "hash": "17783641251536691879"
+          "hash": "8485045492988074165"
         },
         {
           "file": "src/app/app.tsx",
-          "hash": "15695662545294812575",
+          "hash": "11935846550742015421",
           "deps": [
             "npm:react",
             "npm:p-limit",
@@ -238,11 +246,11 @@
         },
         {
           "file": "src/config/config.ts",
-          "hash": "5310205039131629159"
+          "hash": "17421885624583370579"
         },
         {
           "file": "src/main.tsx",
-          "hash": "2785953050314935393",
+          "hash": "10684617010902632298",
           "deps": [
             "npm:react",
             "npm:react-dom"
@@ -250,22 +258,22 @@
         },
         {
           "file": "src/services/api.service.ts",
-          "hash": "16193995171892686606",
+          "hash": "12876191898660967759",
           "deps": [
             "npm:axios"
           ]
         },
         {
           "file": "src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "2917954890128038984"
         },
         {
           "file": "src/ui/button/button.module.scss",
-          "hash": "456385383665787540"
+          "hash": "14733030549475063555"
         },
         {
           "file": "src/ui/button/button.tsx",
-          "hash": "17748956710570581054",
+          "hash": "3032201726854646231",
           "deps": [
             "npm:react",
             "npm:classnames"
@@ -273,15 +281,15 @@
         },
         {
           "file": "src/ui/index.ts",
-          "hash": "10534116740688682866"
+          "hash": "10654401007154779334"
         },
         {
           "file": "src/ui/input-number/input-number.module.scss",
-          "hash": "3494380690750038812"
+          "hash": "668663483952726020"
         },
         {
           "file": "src/ui/input-number/input-number.tsx",
-          "hash": "8354513397696848506",
+          "hash": "12394955197738772460",
           "deps": [
             "npm:classnames",
             "npm:react"
@@ -289,23 +297,30 @@
         },
         {
           "file": "tsconfig.app.json",
-          "hash": "17525272060780948891"
+          "hash": "1034650643344418994"
         },
         {
           "file": "tsconfig.json",
-          "hash": "10138901573215323733"
+          "hash": "5137910659795509418"
         },
         {
           "file": "tsconfig.spec.json",
-          "hash": "12203409757962645647"
+          "hash": "15177995470686704005"
         },
         {
           "file": "vite.config.ts",
-          "hash": "8481413789103217117",
+          "hash": "10507748264835176103",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
+          ]
+        },
+        {
+          "file": "src/app/app.spec.tsx",
+          "hash": "7231016059235732760",
+          "deps": [
+            "npm:@testing-library/react"
           ]
         }
       ]

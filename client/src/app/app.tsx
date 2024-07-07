@@ -44,6 +44,7 @@ export function App() {
       );
       await Promise.all(promises);
     } catch (err) {
+      console.log('Error: ', err);
     } finally {
       setIsLoading(false);
     }
